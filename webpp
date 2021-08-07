@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+<?php
+
+if(!isset($argv[1])){
+    startServer();
+}
+
+function startServer() {
+    shell_exec(PHP_BINARY." -S localhost:3000 -t public/ src/router.php");
+}

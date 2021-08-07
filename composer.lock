@@ -1,0 +1,165 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7dbf8785266d1d141aff407de53f0325",
+    "packages": [
+        {
+            "name": "ppeco/apipp",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PPEco/apipp.git",
+                "reference": "004872fcbe4a44dc6ca4b486c9597c0b013b7177"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PPEco/apipp/zipball/004872fcbe4a44dc6ca4b486c9597c0b013b7177",
+                "reference": "004872fcbe4a44dc6ca4b486c9597c0b013b7177",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "apipp\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "levkopo",
+                    "email": "levkopoag@gmail.com"
+                }
+            ],
+            "description": "Library for api backend",
+            "support": {
+                "issues": "https://github.com/PPEco/apipp/issues",
+                "source": "https://github.com/PPEco/apipp/tree/1.1.1"
+            },
+            "time": "2021-07-26T12:41:11+00:00"
+        },
+        {
+            "name": "ppeco/dbpp",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PPEco/dbpp.git",
+                "reference": "bbca4739fde05a5e6eaeddecdd50eb1bc5b13b1e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PPEco/dbpp/zipball/bbca4739fde05a5e6eaeddecdd50eb1bc5b13b1e",
+                "reference": "bbca4739fde05a5e6eaeddecdd50eb1bc5b13b1e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "dbpp\\": "src/dbpp"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "levkopo",
+                    "email": "40952805+levkopo@users.noreply.github.com"
+                }
+            ],
+            "description": "The library makes working with database easier and simpler",
+            "support": {
+                "issues": "https://github.com/PPEco/dbpp/issues",
+                "source": "https://github.com/PPEco/dbpp/tree/1.1.1"
+            },
+            "time": "2021-07-11T16:24:39+00:00"
+        },
+        {
+            "name": "ppeco/routepp",
+            "version": "1.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ppeco/routepp.git",
+                "reference": "74becf63a1cb46b6ffb9462cc03a5580d5f01202"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ppeco/routepp/zipball/74becf63a1cb46b6ffb9462cc03a5580d5f01202",
+                "reference": "74becf63a1cb46b6ffb9462cc03a5580d5f01202",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ppeco\\router\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Simple library for route pages",
+            "support": {
+                "issues": "https://github.com/ppeco/routepp/issues",
+                "source": "https://github.com/ppeco/routepp/tree/1.1.3"
+            },
+            "time": "2021-08-07T12:38:06+00:00"
+        },
+        {
+            "name": "ppeco/tplpp",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PPEco/tplpp.git",
+                "reference": "8410e0364448d44e6f08108da20a98eed360dca2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PPEco/tplpp/zipball/8410e0364448d44e6f08108da20a98eed360dca2",
+                "reference": "8410e0364448d44e6f08108da20a98eed360dca2",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ppeco\\tplpp\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Template library for php",
+            "support": {
+                "issues": "https://github.com/PPEco/tplpp/issues",
+                "source": "https://github.com/PPEco/tplpp/tree/1.0.0"
+            },
+            "time": "2021-08-06T10:21:54+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}

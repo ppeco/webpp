@@ -1,0 +1,24 @@
+{
+  "name": "levkopo/webpp",
+  "description": "Web framework for PHP",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "levkopo",
+      "email": "levkopoag@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "database\\": "database",
+      "webpp\\": "src\\webpp"
+    }
+  },
+  "require": {
+    "ppeco/tplpp": "^1.0",
+    "ppeco/dbpp": "^1.1",
+    "ppeco/apipp": "^1.1",
+    "ppeco/routepp": "^1.1"
+  }
+}
