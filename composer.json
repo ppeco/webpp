@@ -1,5 +1,5 @@
 {
-  "name": "levkopo/webpp",
+  "name": "ppeco/webpp",
   "description": "Web framework for PHP",
   "minimum-stability": "stable",
   "license": "MIT",
@@ -19,6 +19,6 @@
     "ppeco/tplpp": "^1.0",
     "ppeco/dbpp": "^1.1",
     "ppeco/apipp": "^1.1",
-    "ppeco/routepp": "^1.1"
+    "ppeco/routepp": "dev-main"
   }
 }
